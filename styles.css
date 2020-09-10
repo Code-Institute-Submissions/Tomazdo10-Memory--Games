@@ -37,8 +37,8 @@ body {
 
 }
 
-#showcase .button{
-    font-size: 20px;
+#showcase .start-button{
+    font-size: 30px;
     text-decoration: none;
     color: #926239;
     border: #926239 1px solid;
@@ -48,7 +48,7 @@ body {
 
 }
 
-#showcase .button:hover{
+#showcase .start-button:hover{
     background: #926239;
     color:#fff;
 }
@@ -61,15 +61,28 @@ body {
 
 }
 
-#section-b{
+#section.id-b{
     display: flex;
 
 
 }
 
-#section-b .box-1, .box-2{
+#section-b .box-1{
     background: #926239;
     color: #fff;
     
 }
+canvas{
+    background:rgb(197, 89, 89);
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    border: solid .2em burlywood;
+    height: 90vh;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+    } 
+
+    
 

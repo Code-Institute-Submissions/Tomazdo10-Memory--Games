@@ -1,6 +1,6 @@
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
-
+var sound = document.getElementById('sound');
 context.scale(20, 20);
 
 function arenaSweep(){
@@ -18,7 +18,9 @@ function arenaSweep(){
         player.score += rowCount * 10;
         rowCount *= 2;
     }
+     
 }
+
 
 const matrix = [
 [0, 0, 0],
@@ -115,11 +117,18 @@ function drawMatrix(matrix, offset) {
 }
 
 function merge(arena, player) {
+     var soundFlag = true;
 player.matrix.forEach((row, y) => {
     row.forEach((value, x) => {
         if (value !== 0) {
             arena[y + player.pos.y ][x + player.pos.x] = value;
-        }
+          }
+           if (soundFlag) {
+                       sound.currentTime = 0;
+                       sound.pause();
+                       sound.play();
+                       soundFlag = false;
+           }
     });
     });
 }
@@ -147,6 +156,7 @@ function playerReset() {
     player.score = 0;
     updateScore();
                    }
+                  
 }
 
 function playerMove(dir) {

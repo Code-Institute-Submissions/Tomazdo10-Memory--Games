@@ -8,33 +8,34 @@
     <link rel="stylesheet" href="styles.css"  />
 </head>
 <body>
+
 <header id="showcase">
 <h1>TETRIS</h1>
 <p>Let's Play Tetris</p>
-<a href="#" class="button">Start Game</a>
+<a href="#" id="start-button">Start/Pause</a>
 </header>
 
 <section id="a">
 <p>Tetris (Russian: Тетрис [ˈtɛtrʲɪs]) is a tile-matching video game created by Russian software engineer Alexey Pajitnov in 1984.
  It has been published by several companies, most prominently during a dispute over the appropriation of the game's rights in the late 1980s. 
  After a significant period of publication by Nintendo, the rights reverted to Pajitnov in 1996, who co-founded The Tetris Company with Henk Rogers to manage Tetris licensing.</p>
- 
+</section>
+
 <section id="b">
 <div class="box-1">
 <p>Built on simple rules,Tetris established itself as one of the great early video games. 
 The game is available on over 65 platforms, setting a Guinness world record for the most ported video game title,
  It has sold 202 million copies – approximately 70 million physical units and 132 million paid mobile game downloads </p>
-</div>
-
-<div class="box-2">
-<p>Tetris is primarily composed of a field of play in which pieces of different geometric forms, called "tetriminos", descend from the top of the field. 
-Nearly all Tetris games allow the player to press a button to increase the speed of the current piece's descent or cause the piece to drop and lock into place immediately, known as a "soft drop" and a "hard drop", respectively.</p>
-</div>
+Tetris is primarily composed of a field of play in which pieces of different geometric forms, called "tetriminos", descend from the top of the field. 
+Nearly all Tetris games allow the player to press a button to increase the speed of the current piece's descent or cause the piece to drop and lock into place immediately, known as a "soft drop" and a "hard drop", respectively.
 </section>
 
 <h3>Score:<span id="score">0</span></h3>
+<h3>Player:<span id="player"></span></h3>
 <canvas id="tetris" width="240" height="400"></canvas>
-    <script src="tetris.js"></script> 
+<audio src="sound/Blippy Trance.mp3" id="sound"></audio>
+<script src="tetris.js"></script>
 
 </body>
+
 </html>
