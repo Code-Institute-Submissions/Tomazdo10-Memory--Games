@@ -250,7 +250,7 @@ const player = {
 }
 
 StartBtn.addEventListener('click', () => {
-if (timerId) {
+if (timerId); {
     clearInterval(timerId)
     timerId = null
 
