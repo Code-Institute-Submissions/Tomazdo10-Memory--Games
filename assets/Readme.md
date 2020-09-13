@@ -1,4 +1,10 @@
-## TETRIS:
+![img12](https://user-images.githubusercontent.com/66019489/93011929-35cf5800-f593-11ea-9fcc-9e538f810e28.jpg)
+
+
+
+
+
+                                                 # TETRIS GAME
 -----------------------------------------------------------------------------------------------------------------
 #### 
 The purpose of this website is to introduce the game Tetris. The Tetris game is to play with tetriminios, the game that is known to all men kind if you where born in the 80's
