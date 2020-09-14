@@ -39,3 +39,57 @@ Instructions how to play the game.
   * Code
   * Acknowledgements
 ## 7.Disclaimer
+
+# UX
+-------------------------------------
+### Project Goal:
+* The main goal of the Tetris Game is to provide a clean and friendly game to children which can be played from age 5 and parents-adults.
+  #### Player Goals:
+* The central target audience for this game is basicaly from age 5 and above.
+Player goals:
+
+* Fun game to play 
+* Child friendly controls
+* The game controles are laid out together in intuitive way
+* Fun tetrominos and sound
+
+Tetris is a greta game for children to learn about geometry and shapes as well as how to recognize the patterns.
+
+* Controls are grouped together clearly
+* The overall feel of Tetris! is fun and child-friendly.
+
+### Parental Goals
+Parents of a pre-school children have a big impact on them what kind of a games are they exposed to, parents must also be in the forefront of any project design for children in this age group
+
+Parents goal:
+
+* A game with child development value, to improve their knowledge and recognize the patterns.
+
+* A visually appealing well function game
+
+* The abillity to reset the stored player profile
+
+* A mutte button
+
+* Start/Stop game button
+
+Tetris is a great way to help parents to meet their needs:
+
+* Gives a child fun and practice to skill their memory as well to a parent
+
+* It's been designed not only for a child use but also for a parents
+
+* Summary:Brain imaging shown playing Tetris leads to a thicker cortex and may also increase brain efficiency.
+
+
+### Developer and Business Goals
+
+* Well thought of programing that the use of Tetris game cannot be broken by pressing many areas quickly at the same time.
+* A professional looking into the Javascript,jQuery,HTML and CSS.
+
+### User Stories
+
+As a young aged player i would like to know:
+* The abillity to easily find the controls for the game so that can be easily operate
+* Audio and visual fedback when i play the game so i can know when i click something
+* Visual icons so that i can recognise when i have achived something in the game. For example trophy for high score.
