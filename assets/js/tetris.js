@@ -1,6 +1,6 @@
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
-const sound = document.getElementById('assets, sound');
+const sound = document.getElementById('sound');
 const StartBtn = document.querySelector('#start-button');
 context.scale(20, 20);
 
