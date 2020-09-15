@@ -4,59 +4,59 @@ const sound = document.getElementById('sound');
 const StartBtn = document.querySelector('#start-button');
 context.scale(20, 20);
 
-function arenaSweep(){
+function arenaSweep() {
     let rowCount = 1;
-   outer: for (let y = arena.length - 1; y > 0; --y) {
-        for (let x = 0 ; x < arena[y].length; ++x) {
+    outer: for (let y = arena.length - 1; y > 0; --y) {
+        for (let x = 0; x < arena[y].length; ++x) {
             if (arena[y][x] === 0) {
                 continue outer;
             }
         }
-       const row = arena.splice(y, 1)[0].fill(0);
+        const row = arena.splice(y, 1)[0].fill(0);
         arena.unshift(row);
         ++y;
 
         player.score += rowCount * 10;
         rowCount *= 2;
     }
-     
+
 }
 
 
 const matrix = [
-[0, 0, 0],
-[1, 1, 1],
-[0, 1, 0],
+    [0, 0, 0],
+    [1, 1, 1],
+    [0, 1, 0],
 ];
 
 function collide(arena, player) {
     const [m, o] = [player.matrix, player.pos];
     for (let y = 0; y < m.length; ++y) {
-       for (let x = 0; x < m[y].length; ++x) {
-           if(m[y][x] !==0 &&
-            (arena[y + o.y]&&
-            arena[y + o.y][x + o.x]) !== 0 ) {
+        for (let x = 0; x < m[y].length; ++x) {
+            if (m[y][x] !== 0 &&
+                (arena[y + o.y] &&
+                    arena[y + o.y][x + o.x]) !== 0) {
                 return true;
             }
-       }
+        }
     }
     return false;
 }
 
 function createMatrix(w, h) {
-const matrix = [];
-while (h--) {
-    matrix.push(new Array(w).fill(0));
-}
- return matrix;
+    const matrix = [];
+    while (h--) {
+        matrix.push(new Array(w).fill(0));
+    }
+    return matrix;
 }
 
 function createPiece(type) {
     if (type === 'T') {
         return [
-          [0, 0, 0],
-          [1, 1, 1], 
-          [0, 1, 0],
+            [0, 0, 0],
+            [1, 1, 1],
+            [0, 1, 0],
         ];
     } else if (type === 'O') {
         return [
@@ -65,34 +65,34 @@ function createPiece(type) {
         ];
     } else if (type === 'L') {
         return [
-          [0, 3, 0],
-          [0, 3, 0], 
-          [0, 3, 3],
+            [0, 3, 0],
+            [0, 3, 0],
+            [0, 3, 3],
         ];
-         } else if (type === 'J') {
+    } else if (type === 'J') {
         return [
-          [0, 4, 0],
-          [0, 4, 0], 
-          [4, 4, 0],
+            [0, 4, 0],
+            [0, 4, 0],
+            [4, 4, 0],
         ];
-          } else if (type === 'I') {
+    } else if (type === 'I') {
         return [
-          [0, 5, 0, 0],
-          [0, 5, 0, 0], 
-          [0, 5, 0, 0],
-          [0, 5, 0, 0],
+            [0, 5, 0, 0],
+            [0, 5, 0, 0],
+            [0, 5, 0, 0],
+            [0, 5, 0, 0],
         ];
-          } else if (type === 'S') {
+    } else if (type === 'S') {
         return [
-          [0, 6, 6],
-          [6, 6, 0], 
-          [0, 0, 0],
+            [0, 6, 6],
+            [6, 6, 0],
+            [0, 0, 0],
         ];
-          } else if (type === 'Z') {
+    } else if (type === 'Z') {
         return [
-          [7, 7, 0],
-          [0, 7, 7], 
-          [0, 0, 0],
+            [7, 7, 0],
+            [0, 7, 7],
+            [0, 0, 0],
         ];
     }
 }
@@ -100,9 +100,12 @@ function createPiece(type) {
 function draw() {
     context.fillStyle = '#000';
     context.fillRect(0, 0, canvas.clientWidth, canvas.height);
-  drawMatrix(arena, {x: 0, y: 0});
-  drawMatrix(player.matrix, player.pos);
+    drawMatrix(arena, { x: 0, y: 0 });
+    drawMatrix(player.matrix, player.pos);
+
 }
+
+
 
 function drawMatrix(matrix, offset) {
     matrix.forEach((row, y) => {
@@ -110,30 +113,30 @@ function drawMatrix(matrix, offset) {
             if (value !== 0) {
                 context.fillStyle = colors[value];
                 context.fillRect(x + offset.x,
-                                 y + offset.y,
-                                 1, 1);
+                    y + offset.y,
+                    1, 1);
             }
         });
     });
 }
 
 
- var soundFlag = true;
-   if (soundFlag) {
-                       sound.currentTime = 0;
-                       sound.pause();
-                       sound.play();
-                       soundFlag = false;
-           }
+var soundFlag = true;
+if (soundFlag) {
+    sound.currentTime = 0;
+    sound.pause();
+    sound.play();
+    soundFlag = false;
+}
 
 function merge(arena, player) {
-player.matrix.forEach((row, y) => {
-    row.forEach((value, x) => {
-        if (value !== 0) {
-            arena[y + player.pos.y ][x + player.pos.x] = value;
-          }
-        
-    });
+    player.matrix.forEach((row, y) => {
+        row.forEach((value, x) => {
+            if (value !== 0) {
+                arena[y + player.pos.y][x + player.pos.x] = value;
+            }
+
+        });
     });
 }
 
@@ -154,22 +157,22 @@ function playerReset() {
     player.matrix = createPiece(pieces[pieces.length * Math.random() | 0]);
     player.pos.y = 0;
     player.pos.x = (arena[0].length / 2 | 0) -
-                   (player.matrix[0].length / 2 | 0);
+        (player.matrix[0].length / 2 | 0);
     if (collide(arena, player)) {
-    arena.forEach(row => row.fill(0));
-    player.score = 0;
-    updateScore();
-                   }
-                  
+        arena.forEach(row => row.fill(0));
+        player.score = 0;
+        updateScore();
+    }
+
 }
 
 function playerMove(dir) {
-     player.pos.x += dir;
-     if (collide(arena, player)) {
-         player.pos.x -= dir;
-     }
+    player.pos.x += dir;
+    if (collide(arena, player)) {
+        player.pos.x -= dir;
+    }
 
-     }
+}
 
 function playerRotate(dir) {
     let offset = 1;
@@ -194,21 +197,21 @@ function rotate(matrix, dir) {
                 matrix[x][y],
                 matrix[y][x],
             ] = [
-                matrix[y][x],
-                matrix[x][y],
-            ]
+                    matrix[y][x],
+                    matrix[x][y],
+                ]
         }
     }
     if (dir > 0) {
-    matrix.forEach(row => row.reverse());
-} else { 
-    matrix.reverse();
+        matrix.forEach(row => row.reverse());
+    } else {
+        matrix.reverse();
     }
- 
+
 }
 
 
-       
+
 let dropCounter = 0;
 let DropInterval = 1000;
 
@@ -216,10 +219,10 @@ let lastTime = 0;
 function update(time = 0) {
     const deltaTime = time - lastTime;
     lastTime = time;
-    
+
     dropCounter += deltaTime;
     if (dropCounter > DropInterval) {
-       playerDrop();
+        playerDrop();
     }
 
     draw();
@@ -245,37 +248,39 @@ const arena = createMatrix(12, 20);
 
 
 const player = {
-    pos: {x: 0, y: 0},
+    pos: { x: 0, y: 0 },
     matrix: null,
     score: 0,
 }
 
 StartBtn.addEventListener('click', () => {
-if (timerId); {
-    clearInterval(timerId)
-    timerId = null
+    if (timerId); {
+        clearInterval(timerId)
+        timerId = null
 
-    draw()
-    timerId = setInterval(moveDown, 1000)
-    nextRandom = Math.floor(Math.random()*matrix.length)
-    displayShape()
-}
+        draw()
+        timerId = setInterval(moveDown, 1000)
+        nextRandom = Math.floor(Math.random() * matrix.length)
+        displayShape()
+    }
 });
 
 document.addEventListener('keydown', event => {
- if (event.keyCode === 37) {
-     playerMove(-1);
- } else if (event.keyCode ===39) {
-     playerMove(1);
-} else if (event.keyCode === 40) {
- playerDrop();
-} else { if (event.keyCode === 81) {
-    playerRotate(-1);
-    } else { if (event.keyCode === 87) {
-    playerRotate(1);
+    if (event.keyCode === 37) {
+        playerMove(-1);
+    } else if (event.keyCode === 39) {
+        playerMove(1);
+    } else if (event.keyCode === 40) {
+        playerDrop();
+    } else {
+        if (event.keyCode === 81) {
+            playerRotate(-1);
+        } else {
+            if (event.keyCode === 87) {
+                playerRotate(1);
+            }
+        }
     }
-}
-}
 });
 
 playerReset();

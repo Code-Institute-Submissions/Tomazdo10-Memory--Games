@@ -93,3 +93,15 @@ As a young aged player i would like to know:
 * The abillity to easily find the controls for the game so that can be easily operate
 * Audio and visual fedback when i play the game so i can know when i click something
 * Visual icons so that i can recognise when i have achived something in the game. For example trophy for high score.
+
+As a parent player, i would search for:
+* Levels of difficulty for my child
+* a visually positive experience in the game
+* Ability to delete the stored profiles, so i can reset the game for another go or for someone else to play
+* A mute button to be incliuded so it can be switched off
+* Who made  the game so it can be contacted
+
+### Design Choices
+The of the game was made more for the children to enjoy the game. The following design choices where made with this in mind:
+ 
+ * 
