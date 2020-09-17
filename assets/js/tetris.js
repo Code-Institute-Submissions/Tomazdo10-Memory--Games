@@ -1,7 +1,7 @@
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 const sound = document.getElementById('sound');
-const StartBtn = document.querySelector('#start-button');
+const StartBtn = document.getElementById('start-btn').addEventListener('click', initializeGame);
 context.scale(20, 20);
 
 function arenaSweep() {
@@ -286,3 +286,4 @@ document.addEventListener('keydown', event => {
 playerReset();
 updateScore();
 update();
+

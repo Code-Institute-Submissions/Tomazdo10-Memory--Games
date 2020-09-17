@@ -10,7 +10,7 @@
 ----------------------------------------------------------------------------------------------------------------------------------
 
 ## TETRIS GAME
-* The purpose of this website is to introduce the game Tetris. The Tetris game is to play with tetriminios, the game is known worldwide and it,s playable form age 5 and onwards.
+* The purpose of this website is to introduce the game Tetris. The Tetris game is to play with tetriminos, the game is known worldwide and it,s playable form age 5 and onwards.
 
 * The website will give you the following information:
 A brief description/introduction about the Tetris game.

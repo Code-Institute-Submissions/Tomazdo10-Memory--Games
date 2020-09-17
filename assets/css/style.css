@@ -75,12 +75,15 @@ body {
     color:#fff;
 }
 
-h3-.player{
+.h3-.player{
     position: absolute;
     padding: 40px;
 }
 
 canvas{
+    background-image: url(https://kids.nationalgeographic.com/content/dam/kidsea/kids-core-objects/backgrounds/ngk_spacehub3_2.adapt.1900.1.jpg);
+    background-size: cover;
+    background-position: center;
     height: 90vh;
     background:rgb(197, 89, 89);
     color: rgb(106, 151, 138);
