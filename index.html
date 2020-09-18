@@ -51,6 +51,24 @@
 	<h3>Player:<span id="player"></span></h3>
 	<canvas id="tetris" width="240" height="400"></canvas>
 	<audio src="sound/Blippy Trance.mp3" id="sound"></audio>
+
+    <!---Mute Button--->
+    <ul class="mute-btn">
+    <li>
+    <button id="mute" aria-label="Mute-Audio">
+    <i id="i-mute" class="fa fa-volume-off"></i>
+    <i id="i-not-muted" class="fa fa-volume-up"></i>
+    </button>
+    </li>
+    </ul>
+
+<!----Reset Button-->
+<ul class="reset-btn">
+<li>
+<button id="reset">Reset</button>
+</li>
+</ul>
+
     <script src="assets/js/tetris.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>

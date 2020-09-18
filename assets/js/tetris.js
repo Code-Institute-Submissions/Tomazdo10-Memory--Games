@@ -1,7 +1,8 @@
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 const sound = document.getElementById('sound');
-const StartBtn = document.getElementById('start-btn').addEventListener('click', initializeGame);
+const startBtn = document.querySelector('#start-button');
+
 context.scale(20, 20);
 
 function arenaSweep() {
@@ -254,13 +255,13 @@ const player = {
 }
 
 StartBtn.addEventListener('click', () => {
-    if (timerId); {
+    if (timerId) {
         clearInterval(timerId)
-        timerId = null
-
+        timerId = null;
+    }else{
         draw()
         timerId = setInterval(moveDown, 1000)
-        nextRandom = Math.floor(Math.random() * matrix.length)
+        nextRandom = Math.floor(Math.random() *theMatrix.length)
         displayShape()
     }
 });
