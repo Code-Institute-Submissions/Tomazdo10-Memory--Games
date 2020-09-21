@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="Description" content="TETRIS">
-     <link rel="icon" href="favicon.ico">
+	<link rel="icon" href="favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 	<link rel="stylesheet" href="assets/css/style.css" />
@@ -18,7 +18,7 @@
 	<header id="showcase">
 		<h1>TETRIS</h1>
 		<p>Let's Play Tetris</p>
-		<a href="#" id="start-button">Start/Stop</a>
+
 	</header>
 
 	<section id="a">
@@ -47,29 +47,30 @@
 		</div>
 	</section>
 
+	<a href="#" id="start-button">Start/Stop</a>
 	<h3>Score:<span id="score">0</span></h3>
 	<h3>Player:<span id="player"></span></h3>
 	<canvas id="tetris" width="240" height="400"></canvas>
 	<audio src="sound/Blippy Trance.mp3" id="sound"></audio>
 
-    <!---Mute Button--->
-    <ul class="mute-btn">
-    <li>
-    <button id="mute" aria-label="Mute-Audio">
+	<!---Mute Button--->
+	<ul class="mute-btn">
+		<li>
+			<button id="mute" aria-label="Mute-Audio">
     <i id="i-mute" class="fa fa-volume-off"></i>
     <i id="i-not-muted" class="fa fa-volume-up"></i>
     </button>
-    </li>
-    </ul>
+		</li>
+	</ul>
 
-<!----Reset Button-->
-<ul class="reset-btn">
-<li>
-<button id="reset">Reset</button>
-</li>
-</ul>
+	<!----Reset Button-->
+	<ul class="reset-btn">
+		<li>
+			<button id="reset">Reset</button>
+		</li>
+	</ul>
 
-    <script src="assets/js/tetris.js"></script>
+	<script src="assets/js/tetris.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>

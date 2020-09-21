@@ -2,6 +2,9 @@ const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 const sound = document.getElementById('sound');
 const startBtn = document.querySelector('#start-button');
+const width = 10
+let nextRandom = 0
+let timerId
 
 context.scale(20, 20);
 
@@ -254,7 +257,7 @@ const player = {
     score: 0,
 }
 
-StartBtn.addEventListener('click', () => {
+startBtn.addEventListener('click', () => {
     if (timerId) {
         clearInterval(timerId)
         timerId = null;
