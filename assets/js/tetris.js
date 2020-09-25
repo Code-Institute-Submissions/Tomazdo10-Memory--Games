@@ -1,10 +1,9 @@
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 const sound = document.getElementById('sound');
+const mute = document.getElementById('mute').addEventListener("click", toggleMute);
 const startBtn = document.querySelector('#start-button');
-const width = 10
-let nextRandom = 0
-let timerId
+
 
 context.scale(20, 20);
 
@@ -131,6 +130,14 @@ if (soundFlag) {
     sound.pause();
     sound.play();
     soundFlag = false;
+}
+
+function toggleMute() {
+    music.muted = !music.muted;
+    start.muted = !start.muted;
+    completed.muted = !completed.muted;
+    document.getElementById("i-muted").classList.toggle("hidden");
+    document.getElementById("i-not-muted").classList.toggle("hidden");
 }
 
 function merge(arena, player) {

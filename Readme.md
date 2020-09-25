@@ -102,6 +102,18 @@ As a parent player, i would search for:
 * Who made  the game so it can be contacted
 
 ### Design Choices
-The of the game was made more for the children to enjoy the game. The following design choices where made with this in mind:
+ The design of the game was more for children to enyoj. Design of the choices wher made with this in mind:
+
+#### Icons
+
+* All icons where chosen for the obvious meaning purpose so they can be understod by everyone
+
+#### Colours
+
+* The primary choices of goldenrod colour for the logo, title and text where chosen because they have a clear aspect while contrasting each other well. 
+  
+
+
+
  
- * 
+ 
