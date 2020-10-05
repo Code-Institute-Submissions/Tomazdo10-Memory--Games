@@ -116,16 +116,15 @@ body {
 
 
 canvas{
-    height: 90vh;
     background-image:url(https://imgs.classicfm.com/images/61630?width=1000&crop=16_9&signature=UOxsAc4VhzNYQEIG-RTXur_mix8=);
     background-size: cover;
     background-position: center;
+    height: 100vh;
     color: rgb(106, 151, 138);
     font-size: 2em;
     border: solid .2em rgba(104, 100, 79, 0.322);
-    padding-right: 400px;
-    padding-left: 30px;
-    position: center;
+    padding-right: 470px;
+    padding-left: 460px;
     
     } 
  

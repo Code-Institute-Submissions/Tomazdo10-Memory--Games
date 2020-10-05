@@ -100,6 +100,7 @@ function createPiece(type) {
     }
 }
 
+
 function draw() {
     context.fillStyle = '#000';
     context.fillRect(0, 0, canvas.clientWidth, canvas.height);
@@ -107,8 +108,6 @@ function draw() {
     drawMatrix(player.matrix, player.pos);
 
 }
-
-
 
 function drawMatrix(matrix, offset) {
     matrix.forEach((row, y) => {
