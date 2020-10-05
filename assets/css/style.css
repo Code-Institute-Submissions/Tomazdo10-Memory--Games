@@ -3,17 +3,15 @@
     padding: 0;
 }
 
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  color: #a18320;
-  line-height: 1.6;
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #a18320;
+    line-height: 1.6;
 }
 
-
-#showcase{
+#showcase {
     background-image: url(https://images.askmen.com/1080x540/2020/05/12-104707-mind_games_in_relationships_what_they_look_like_how_to_avoid_them.jpg);
     background-size: cover;
     background-position: center;
@@ -26,105 +24,88 @@ body {
     padding: 0 20px;
 }
 
-#showcase h1{
+#showcase h1 {
     font-size: 60px;
     line-height: 1.2;
-
 }
 
-#showcase p{
-    font-size: 30px;
+.p {
+    font-size: 20px;
 }
 
-#showcase-a-box{
+.box-1 {
     padding: 20px;
-    background: #926239;
-    color :#fff;
+    background: #6f6257;
+    color : #fff;
     text-align: center;
-    letter-spacing: 1rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-
+    letter-spacing: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-#section.id-b{
+.id-b {
     display: flex;
-
-
 }
 
-#section-b .box-1{
-    background: #926239;
-    color: #fff;
-    
-}
 
 /* buttons*/
-
-.start-btn{
+.start-btn {
     font-size: 30px;
     text-decoration: none;
-    color: #926239;
-    border: #926239 1px solid;
+    color: #c1c1c1;
+    border: #e5ded7 1px solid;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
-
 }
 
-.start-btn:hover{
+.start-btn:hover {
     background: #926239;
-    color:#fff;
+    color: #fff;
 }
 
-.mute-btn,
-.reset-btn{
+.mute-btn, .reset-btn {
     list-style: none;
     display: flex;
     padding: 0;
     margin: 0;
-
 }
 
-#mute{
+#mute {
     font-size: clamp(15px, 4vw, 15px);
     padding: 5px 0 0 10px;
     position: absolute;
     margin: 4px;
-    
 }
 
-#mute:active{
-  top: 1px;
+#mute:active {
+    top: 1px;
 }
 
-.mute-btn i{
-  color:goldenrod;
+.mute-btn i {
+    color: goldenrod;
 }
 
-.mute-btn li,
+.mute-btn li, .reset-btn li {
+    top: 0;
+    position: absolute;
+    margin: 0;
+}
+
 .reset-btn li {
-  top: 0;
-  position: absolute;
-  margin: 0;
+    right: 7px;
+    ; top: 7px
 }
 
-.reset-btn li{
-  right:7px;;
-  top: 7px
-}
-
-
-canvas{
-    background-image:url(https://imgs.classicfm.com/images/61630?width=1000&crop=16_9&signature=UOxsAc4VhzNYQEIG-RTXur_mix8=);
+canvas {
+    height: 90vh;
+    background-image: url(https://imgs.classicfm.com/images/61630?width=1000&crop=16_9&signature=UOxsAc4VhzNYQEIG-RTXur_mix8=);
     background-size: cover;
     background-position: center;
-    height: 100vh;
     color: rgb(106, 151, 138);
     font-size: 2em;
     border: solid .2em rgba(104, 100, 79, 0.322);
-    padding-right: 470px;
-    padding-left: 460px;
-    
-    } 
- 
+    padding-right: 50px;
+    padding-left: 50px;
+    position: center;
+}
