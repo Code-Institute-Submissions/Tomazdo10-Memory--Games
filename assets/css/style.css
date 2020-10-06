@@ -105,7 +105,7 @@ canvas {
     color: rgb(106, 151, 138);
     font-size: 2em;
     border: solid .2em rgba(104, 100, 79, 0.322);
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 500px;
+    padding-left: 460px;
     position: center;
 }
