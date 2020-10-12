@@ -49,7 +49,7 @@
 
 
 /* buttons*/
-.start-btn {
+.a start-btn {
     font-size: 30px;
     text-decoration: none;
     color: #c1c1c1;
@@ -64,7 +64,7 @@
     color: #fff;
 }
 
-.mute-btn, .reset-btn {
+.mute-btn{
     list-style: none;
     display: flex;
     padding: 0;
@@ -86,15 +86,10 @@
     color: goldenrod;
 }
 
-.mute-btn li, .reset-btn li {
+.mute-btn li {
     top: 0;
-    position: absolute;
+    position: relative;
     margin: 0;
-}
-
-.reset-btn li {
-    right: 7px;
-    ; top: 7px
 }
 
 canvas {
@@ -102,10 +97,10 @@ canvas {
     background-image: url(https://imgs.classicfm.com/images/61630?width=1000&crop=16_9&signature=UOxsAc4VhzNYQEIG-RTXur_mix8=);
     background-size: cover;
     background-position: center;
+    display: flex;
     color: rgb(106, 151, 138);
     font-size: 2em;
-    border: solid .2em rgba(104, 100, 79, 0.322);
-    padding-right: 500px;
-    padding-left: 460px;
+    padding-right: 50px;
+    padding-left: 50px;
     position: center;
 }

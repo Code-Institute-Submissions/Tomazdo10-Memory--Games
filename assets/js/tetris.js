@@ -5,6 +5,7 @@ const mute = document.getElementById('mute').addEventListener("click", toggleMut
 const startBtn = document.querySelector('#start-button');
 
 
+
 context.scale(20, 20);
 
 function arenaSweep() {
@@ -21,8 +22,9 @@ function arenaSweep() {
 
         player.score += rowCount * 10;
         rowCount *= 2;
-    }
 
+    }
+    
 }
 
 
@@ -295,4 +297,3 @@ document.addEventListener('keydown', event => {
 playerReset();
 updateScore();
 update();
-
