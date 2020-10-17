@@ -110,7 +110,11 @@ As a parent player, i would search for:
 
 #### Colours
 
-* The primary choices of goldenrod colour for the logo, title and text where chosen because they have a clear aspect while contrasting each other well. 
+* The primary choice of text background is colour goldenrod because they have a clear aspect while contrasting each other well with the main image on the top.
+
+* The background for the game itself was chosen the image of milky way (universe) because it is nicely laying on the back of the game an makes you more relaxed during the play. 
+
+
   
 
 

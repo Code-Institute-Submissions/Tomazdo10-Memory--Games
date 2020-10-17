@@ -265,7 +265,7 @@ const player = {
 }
 
 startBtn.addEventListener('click', () => {
-    if (timerId) {
+    if (timerId = setInterval) {
         clearInterval(timerId)
         timerId = null;
     }else{
