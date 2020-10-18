@@ -11,6 +11,10 @@
     line-height: 1.6;
 }
 
+html body{
+    background-image: url(https://static.scientificamerican.com/sciam/cache/file/B73C6A04-9155-44EC-B80AA2B5E9E62508_source.jpg)
+}
+
 #showcase {
     background-image: url(https://images.askmen.com/1080x540/2020/05/12-104707-mind_games_in_relationships_what_they_look_like_how_to_avoid_them.jpg);
     background-size: cover;
@@ -27,20 +31,23 @@
 #showcase h1 {
     font-size: 60px;
     line-height: 1.2;
+    color: #28a4b1;
 }
 
 .p {
-    font-size: 20px;
+    font-size: 30px;
+    color: goldenrod;
 }
 
 .box-1 {
-    padding: 20px;
-    background: #6f6257;
-    color : #fff;
+    padding: 0px;
+    background: #28a4b1;
+    color: #fff;
     text-align: center;
-    letter-spacing: 0.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    letter-spacing: 10px;
+    line-height: 1.6;
 }
 
 .id-b {
@@ -49,20 +56,6 @@
 
 
 /* buttons*/
-button#start-button {
-    display: inline-block;
-    font-size: 25px;
-    background-color: lightblue;
-    cursor: pointer;
-    border-radius: 15px;
-    float: none;
-}
-
-.start-btn:hover {
-    background: #926239;
-    color: #fff;
-}
-
 #score{
     font-size: 35px;
     background-color: cadetblue;
@@ -107,5 +100,5 @@ canvas {
     font-size: 2em;
     padding-right: 50px;
     padding-left: 50px;
-    margin-left: 40%;
+    margin-left: 35%;
 }
