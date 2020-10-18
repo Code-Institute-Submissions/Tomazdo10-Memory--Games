@@ -143,4 +143,9 @@ This Wireframe where created using the Balsamiq for the design and planning proc
 
 * On arriving on the page this main image with two heads and tetrominos inside with the title of TETRIS is shown.
 
-[Welcome Paige]()
+* The next paige will be represent a text in it wit the TETRIS history.
+
+* And on the arrival to the final paige there you will start playing the game where you can relax and play.
+
+* The modal was programed not to close or end the game, the game goes on.
+

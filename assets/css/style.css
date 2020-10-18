@@ -11,8 +11,8 @@
     line-height: 1.6;
 }
 
-html body{
-    background-image: url(https://static.scientificamerican.com/sciam/cache/file/B73C6A04-9155-44EC-B80AA2B5E9E62508_source.jpg)
+body{
+    background-image: url(https://cdn.images.express.co.uk/img/dynamic/151/590x/Space-news-astronomers-Milky-Way-galaxy-violently-consumed-another-galaxy-1157335.jpg?r=1564037942362)
 }
 
 #showcase {
@@ -59,6 +59,8 @@ html body{
 #score{
     font-size: 35px;
     background-color: cadetblue;
+    padding-left: 250px;
+    padding-top: 1.5rem;
 
 }
 
@@ -71,9 +73,9 @@ html body{
 
 #mute {
     font-size: clamp(15px, 4vw, 15px);
-    padding: 5px 0 0 10px;
+    padding: 5px 0 0 5px;
     position: absolute;
-    margin: 4px;
+    margin: auto;
 }
 
 #mute:active {
@@ -101,4 +103,17 @@ canvas {
     padding-right: 50px;
     padding-left: 50px;
     margin-left: 35%;
+}
+
+div.controls p{
+    font-size: 15px;
+    color: #fff;
+    float: right;
+    margin: 40px 10px 0px 10px;
+}
+
+
+div.footer p a{
+    float: right;
+    color: #fff;
 }
