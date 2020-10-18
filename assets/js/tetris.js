@@ -135,7 +135,7 @@ if (soundFlag) {
 
 function toggleMute() {
     sound.muted = !sound.muted;
-    startBtn.muted = !startBtn.muted;
+    
     document.getElementById("i-muted").classList.toggle("hidden");
     document.getElementById("i-not-muted").classList.toggle("hidden");
 }
@@ -265,7 +265,7 @@ const player = {
 }
 
 startBtn.addEventListener('click', () => {
-    if (timerId = setInterval) {
+    if (timerId) {
         clearInterval(timerId)
         timerId = null;
     }else{

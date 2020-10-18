@@ -49,19 +49,24 @@
 
 
 /* buttons*/
-.a start-btn {
-    font-size: 30px;
-    text-decoration: none;
-    color: #c1c1c1;
-    border: #e5ded7 1px solid;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin-top: 20px;
+button#start-button {
+    display: inline-block;
+    font-size: 25px;
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 15px;
+    float: none;
 }
 
 .start-btn:hover {
     background: #926239;
     color: #fff;
+}
+
+#score{
+    font-size: 35px;
+    background-color: cadetblue;
+
 }
 
 .mute-btn{

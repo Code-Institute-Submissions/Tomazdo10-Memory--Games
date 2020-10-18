@@ -114,10 +114,25 @@ As a parent player, i would search for:
 
 * The background for the game itself was chosen the image of milky way (universe) because it is nicely laying on the back of the game an makes you more relaxed during the play. 
 
-
+* Other colours in project where used from the trophy image source, using a color picker in photoshop to make sure all colours were consistent across the project.
   
 
+#### Styling
+
+* Buttons where given rounded corners because it keeps consistency in design and maintains the felling that all elements fit together
+
+* Background Image of mindset with tetrominos was chosen because it gives a smarter look for the game
+
+* Space background image was chosen because it gives positive emotional feedback at a level that apeals to a child.
+ 
+
+#### Audio File 
+
+* The Blippy Trance song was picked because it fits to the Tetris game and it gives you a relaxing moment when playing the game.
 
 
- 
- 
+## Wireframes
+
+This Wireframe where created using the Balsamiq for the design and planning proces for this project. 
+
+* [User info modal](https://www.tomazdo10.github.io)
