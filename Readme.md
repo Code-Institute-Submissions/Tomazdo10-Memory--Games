@@ -307,13 +307,4 @@ The audio file was taken from (https://soundcloud.com/ashamaluevmusic/sets/music
 * My mentor Anthony Ngene for his time and support in explaining and demostrating areas of code when i was struggling to understand
 
 * To all the stuff and other mentors at Code Institute for tutor asistance.
-=======
-![Screenshot (62)](https://user-images.githubusercontent.com/66019489/96409608-75661100-11dd-11eb-9dd1-d128bd5a6e1b.png)
-
-![Screenshot (63)](https://user-images.githubusercontent.com/66019489/96409781-c118ba80-11dd-11eb-9cf1-4085328c14d0.png)
-
-![Screenshot (71)](https://user-images.githubusercontent.com/66019489/96410997-b3643480-11df-11eb-86f5-32dbe7f1dc60.png)
-
-
->>>>>>> d3ee68c9d2cf642e55e93cefe69db947cc80597e
 
