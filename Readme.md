@@ -139,6 +139,10 @@ This Wireframe where created using the Balsamiq for the design and planning proc
 
 ![Screenshot (71)](https://user-images.githubusercontent.com/66019489/96430175-bf5cf000-11f9-11eb-990c-d53d517316e6.png)
 
+![Screenshot (62)](https://user-images.githubusercontent.com/66019489/96430516-2aa6c200-11fa-11eb-8c10-83a3c91a138e.png)
+
+![Screenshot (63)](https://user-images.githubusercontent.com/66019489/96430521-2da1b280-11fa-11eb-8f1c-1ef50281bd36.png)
+
 
 ## Features
 
