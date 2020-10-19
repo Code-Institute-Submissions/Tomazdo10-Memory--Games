@@ -149,3 +149,5 @@ This Wireframe where created using the Balsamiq for the design and planning proc
 
 * The modal was programed not to close or end the game, the game goes on.
 
+![Screenshot (62)](https://user-images.githubusercontent.com/66019489/96409608-75661100-11dd-11eb-9dd1-d128bd5a6e1b.png)
+
