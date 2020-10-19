@@ -137,6 +137,9 @@ This Wireframe where created using the Balsamiq for the design and planning proc
 
 * [User info modal](https://www.tomazdo10.github.io)
 
+![Screenshot (71)](https://user-images.githubusercontent.com/66019489/96430175-bf5cf000-11f9-11eb-990c-d53d517316e6.png)
+
+
 ## Features
 
 ### Existing Features
