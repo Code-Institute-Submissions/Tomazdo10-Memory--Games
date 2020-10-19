@@ -71,8 +71,6 @@ Parents goal:
 
 * A mutte button
 
-* Start/Stop game button
-
 Tetris is a great way to help parents to meet their needs:
 
 * Gives a child fun and practice to skill their memory as well to a parent
@@ -103,6 +101,13 @@ As a parent player, i would search for:
 
 ### Design Choices
  The design of the game was more for children to enyoj. Design of the choices wher made with this in mind:
+
+![Screenshot (68)](https://user-images.githubusercontent.com/66019489/96430815-8cffc280-11fa-11eb-861f-a4080a0110b7.png)
+
+![Screenshot (69)](https://user-images.githubusercontent.com/66019489/96430823-90934980-11fa-11eb-902f-9db612fd8986.png)
+
+![Screenshot (70)](https://user-images.githubusercontent.com/66019489/96430835-938e3a00-11fa-11eb-93a4-975416aff53e.png)
+
 
 #### Icons
 
@@ -136,6 +141,15 @@ As a parent player, i would search for:
 This Wireframe where created using the Balsamiq for the design and planning proces for this project. 
 
 * [User info modal](https://www.tomazdo10.github.io)
+
+![Screenshot (71)](https://user-images.githubusercontent.com/66019489/96430175-bf5cf000-11f9-11eb-990c-d53d517316e6.png)
+
+![Screenshot (62)](https://user-images.githubusercontent.com/66019489/96430516-2aa6c200-11fa-11eb-8c10-83a3c91a138e.png)
+
+![Screenshot (63)](https://user-images.githubusercontent.com/66019489/96430521-2da1b280-11fa-11eb-8f1c-1ef50281bd36.png)
+
+
+
 
 ## Features
 
@@ -295,13 +309,4 @@ The audio file was taken from (https://soundcloud.com/ashamaluevmusic/sets/music
 * My mentor Anthony Ngene for his time and support in explaining and demostrating areas of code when i was struggling to understand
 
 * To all the stuff and other mentors at Code Institute for tutor asistance.
-=======
-![Screenshot (62)](https://user-images.githubusercontent.com/66019489/96409608-75661100-11dd-11eb-9dd1-d128bd5a6e1b.png)
-
-![Screenshot (63)](https://user-images.githubusercontent.com/66019489/96409781-c118ba80-11dd-11eb-9cf1-4085328c14d0.png)
-
-![Screenshot (71)](https://user-images.githubusercontent.com/66019489/96410997-b3643480-11df-11eb-86f5-32dbe7f1dc60.png)
-
-
->>>>>>> d3ee68c9d2cf642e55e93cefe69db947cc80597e
 
