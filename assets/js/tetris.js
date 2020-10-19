@@ -8,6 +8,7 @@ let nextRandom = 0
 let moveDown = 1000
 let timerId
 
+
 context.scale(20, 20);
 
 function arenaSweep() {
@@ -176,7 +177,7 @@ function playerReset() {
 
 function toggleMute() {
     sound.muted = !sound.muted;
-    document.getElementById("i-muted").classList.toggle("hidden");
+    document.getElementById("i-mute").classList.toggle("hidden");
     document.getElementById("i-not-muted").classList.toggle("hidden");
 }
 

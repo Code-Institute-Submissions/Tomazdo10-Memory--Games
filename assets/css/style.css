@@ -118,3 +118,68 @@ div.footer p a{
     float: right;
     color: #fff;
 }
+
+@media screen (max-width 600px) {
+    body{
+        background-image:  url(https://cdn.images.express.co.uk/img/dynamic/151/590x/Space-news-astronomers-Milky-Way-galaxy-violently-consumed-another-galaxy-1157335.jpg?r=1564037942362)
+    }
+
+#score{
+    font-size: 35px;
+    background-color: cadetblue;
+    padding-left: 250px;
+    padding-top: 1.5rem;
+
+}
+
+.mute-btn{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#mute {
+    font-size: clamp(15px, 4vw, 15px);
+    padding: 5px 0 0 5px;
+    position: absolute;
+    margin: auto;
+}
+
+#mute:active {
+    top: 1px;
+}
+
+.mute-btn i {
+    color: goldenrod;
+}
+
+.mute-btn li {
+    top: 0;
+    position: relative;
+    margin: 0;
+}
+
+canvas {
+    height: 90vh;
+    background-image: url(https://imgs.classicfm.com/images/61630?width=1000&crop=16_9&signature=UOxsAc4VhzNYQEIG-RTXur_mix8=);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: rgb(106, 151, 138);
+    font-size: 2em;
+   
+}
+
+div.controls p{
+    font-size: 15px;
+    color: #fff;
+    float: right;
+    margin: 40px 10px 0px 10px;
+}
+
+
+div.footer p a{
+    float: right;
+    color: #fff;
+}
