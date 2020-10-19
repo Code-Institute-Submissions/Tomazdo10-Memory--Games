@@ -102,6 +102,13 @@ As a parent player, i would search for:
 ### Design Choices
  The design of the game was more for children to enyoj. Design of the choices wher made with this in mind:
 
+![Screenshot (68)](https://user-images.githubusercontent.com/66019489/96430815-8cffc280-11fa-11eb-861f-a4080a0110b7.png)
+
+![Screenshot (69)](https://user-images.githubusercontent.com/66019489/96430823-90934980-11fa-11eb-902f-9db612fd8986.png)
+
+![Screenshot (70)](https://user-images.githubusercontent.com/66019489/96430835-938e3a00-11fa-11eb-93a4-975416aff53e.png)
+
+
 #### Icons
 
 * All icons where chosen for the obvious meaning purpose so they can be understod by everyone
