@@ -1,6 +1,6 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 .body {
@@ -119,7 +119,7 @@ div.footer p a{
     color: #fff;
 }
 
-@media screen (max-width 600px) {
+@media screen and (max-width: 500px) {
     body{
         background-image:  url(https://cdn.images.express.co.uk/img/dynamic/151/590x/Space-news-astronomers-Milky-Way-galaxy-violently-consumed-another-galaxy-1157335.jpg?r=1564037942362)
     }
@@ -182,4 +182,5 @@ div.controls p{
 div.footer p a{
     float: right;
     color: #fff;
+}
 }
