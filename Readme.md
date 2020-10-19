@@ -71,8 +71,6 @@ Parents goal:
 
 * A mutte button
 
-* Start/Stop game button
-
 Tetris is a great way to help parents to meet their needs:
 
 * Gives a child fun and practice to skill their memory as well to a parent
