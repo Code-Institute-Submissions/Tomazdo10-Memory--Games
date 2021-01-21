@@ -2,81 +2,82 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="Description" content="TETRIS">
-	<link rel="icon" href="favicon.ico">
-    <link rel="shortcut icon" href="">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="TETRIS">
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="#">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-	<link rel="stylesheet" href="assets/css/style.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title>TETRIS</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TETRIS</title>
 </head>
 
 <body>
 
-	<header id="showcase">
-		<h1>TETRIS</h1>
-		<p>Let's Play Tetris</p>
-	</header>
+    <header id="showcase">
+        <h1>TETRIS</h1>
+        <p>Let's Play Tetris</p>
+    </header>
 
-	<section id="a">
-		<div class="box-1">
-			<p>Tetris (Russian: Тетрис [ˈtɛtrʲɪs]) is a tile-matching video game created by Russian software engineer
-				Alexey Pajitnov in 1984.
-				It has been published by several companies, most prominently during a dispute over the appropriation of
-				the game's rights in the late 1980s.
-				After a significant period of publication by Nintendo, the rights reverted to Pajitnov in 1996, who
-				co-founded The Tetris Company with Henk Rogers to manage Tetris licensing.
-				Built on simple rules,Tetris established itself as one of the great early video games.
-				The game is available on over 65 platforms, setting a Guinness world record for the most ported video
-				game title,
-				It has sold 202 million copies – approximately 70 million physical units and 132 million paid mobile
-				game downloads
-				Tetris is primarily composed of a field of play in which pieces of different geometric forms, called
-				"tetriminos", descend from the top of the field.
-				Nearly all Tetris games allow the player to press a button to increase the speed of the current piece's
-				descent or cause the piece to drop and lock into place immediately, known as a "soft drop" and a "hard
-				drop", respectively.
-			</p>
-		</div>
-	</section>
+    <section class="form background-color">
 
+        <h3>
+            Tetris (Russian: Тетрис [ˈtɛtrʲɪs]) is a tile-matching video game created by Russian software engineer
+            Alexey Pajitnov in 1984.
+            It has been published by several companies, most prominently during a dispute over the appropriation of
+            the game's rights in the late 1980s.
+            After a significant period of publication by Nintendo, the rights reverted to Pajitnov in 1996, who
+            co-founded The Tetris Company with Henk Rogers to manage Tetris licensing.
+            Built on simple rules,Tetris established itself as one of the great early video games.
+            The game is available on over 65 platforms, setting a Guinness world record for the most ported video
+            game title,
+            It has sold 202 million copies – approximately 70 million physical units and 132 million paid mobile
+            game downloads
+            Tetris is primarily composed of a field of play in which pieces of different geometric forms, called
+            "tetriminos", descend from the top of the field.
+            Nearly all Tetris games allow the player to press a button to increase the speed of the current piece's
+            descent or cause the piece to drop and lock into place immediately, known as a "soft drop" and a "hard
+            drop", respectively.
 
-	
-      <div class="controls">
-          <p><i class="fas fa-arrow-left"></i></span>&#8592 Left</p>
-          <p><i class="fas fa-arrow-right"></i></span>&#8594 Right</p>
-          <p><i class="fas fa-arrow-down"></i></span>&#8595 Down</p>
-          <p><span style="font-size : 18px">Q</span> Rotate Left</p>
-          <p><span style="font-size : 18px">W</span> Rotate Right</p>
-        </div>
-      </div>  
-      <div id="score">0</div>
-	<!---Mute Button--->
-	<ul class="mute-btn">
-		<li>
-			<button id="mute" aria-label="Mute-Audio">
-    <i id="i-mute" class="fa fa-volume-off"></i>
-    <i id="i-not-muted" class="fa fa-volume-up"></i>
-    </button>
-		</li>
-	</ul>
+        </h3>
+    </section>
 
-	<canvas id="tetris" width="240" height="400"></canvas>
-    <audio src="sound/Blippy Trance.mp3" id="sound"></audio>
-    
-    
-			<div class="footer"><p>by <a href="https://tomazdo10.github.io/Memory--Games/" target="_blank"><i class="fab fa-github"></i> Tomaz Dobnik</a></p></div>
-  </div>
+        <div class="controls">
+        <p><span class="fas fa-arrow-left"></span>&#8592;Left</p>
+        <p><span class="fas fa-arrow-right"></span>&#8594;Right</p>
+        <p><span class="fas fa-arrow-down"></span>&#8595;Down</p>
+        <p><span style="font-size : 18px">Q</span> Rotate Left</p>
+        <p><span style="font-size : 18px">W</span> Rotate Right</p>
+    </div>
+    <div id="score">0</div>
+
+    <ul class="mute-btn">
+        <li>
+            <button id="mute" aria-label="Mute Audio">
+                <i id="i-mute" class="fa fa-volume-off"></i>
+                <i id="i-not-muted" class="fa fa-volume-up"></i>
+            </button>
+        </li>
+    </ul>
+
+    <canvas id="tetris" width="240" height="400"></canvas>
+    <audio src="sound/BlippyTrance.mp3" id="sound"></audio>
 
 
+    <div class="footer">
+        <p>by <a href="https://tomazdo10.github.io/Memory--Games/" target="_blank"><i class="fab fa-github"></i> Tomaz
+                Dobnik</a></p>
+    </div>
 
-	<script src="assets/js/tetris.js"></script>
+
+
+
+    <script src="assets/js/tetris.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 </body>
 
