@@ -12,19 +12,85 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>TETRIS</title>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+        
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:url(https://images.unsplash.com/photo-1537420327992-d6e192287183?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80);
+}
+
+.banner-area{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url(https://sm.askmen.com/askmen_ap/article/m/mind-games/mind-games-in-relationships-what-they-look-like-how-to-avoid_ctt6.jpg);
+    background-size:cover;
+    }
+
+.content-area{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.content{
+     text-align: center;
+}
+
+.content h1{
+            font-size: 80px;
+            color: #fff;
+        }
+
+        .content p{
+            font-size: 30px;
+            content: #ddd;
+        }
+
+/*   Main Area  */
+
+        .container{
+            width: 100%;
+            margin: 50px auto;
+            padding: 10px;
+
+        }
+
+        .container .box{
+            width: 100%;
+            padding: 50px;
+            background: rgb(217, 231, 233);
+            margin-top: 50px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px -3 rgba(0, 0, 0, .1);
+        }
+
+</style>
 </head>
 
 <body>
 
-    <header id="showcase">
-        <h1>TETRIS</h1>
-        <p>Let's Play Tetris</p>
-    </header>
+    <div class="banner-area">
+        <div class="content-area">
+            <div class="content">
 
-    <section class="form background-color">
+                <h1>TETRIS GAME</h1>
+                <p>Click The Start Button</p>
+                 <button type="button" id="startBtn" onclick="initialize()">START</button>
+            </div>
+        </div>
+    </div>
 
-        <h3>
-            Tetris (Russian: Тетрис [ˈtɛtrʲɪs]) is a tile-matching video game created by Russian software engineer
+    <div class="container">
+        <div class="box">
+            <p>
+                 Tetris (Russian: Тетрис [ˈtɛtrʲɪs]) is a tile-matching video game created by Russian software engineer
             Alexey Pajitnov in 1984.
             It has been published by several companies, most prominently during a dispute over the appropriation of
             the game's rights in the late 1980s.
@@ -40,11 +106,11 @@
             Nearly all Tetris games allow the player to press a button to increase the speed of the current piece's
             descent or cause the piece to drop and lock into place immediately, known as a "soft drop" and a "hard
             drop", respectively.
+            </p>
+        </div>
 
-        </h3>
-    </section>
-
-        <div class="controls">
+    </div>
+    <div class="controls">
         <p><span class="fas fa-arrow-left"></span>&#8592;Left</p>
         <p><span class="fas fa-arrow-right"></span>&#8594;Right</p>
         <p><span class="fas fa-arrow-down"></span>&#8595;Down</p>
@@ -63,12 +129,11 @@
     </ul>
 
     <canvas id="tetris" width="240" height="400"></canvas>
-    <audio src="sound/BlippyTrance.mp3" id="sound"></audio>
+    <audio src="sound/Blippy Trance.mp3" id="sound" autoplay="true"></audio>
 
 
     <div class="footer">
-        <p>by <a href="https://tomazdo10.github.io/Memory--Games/" target="_blank"><i class="fab fa-github"></i> Tomaz
-                Dobnik</a></p>
+    <a href="https://tomazdo10.github.io/Memory--Games/" target="_blank"><i class="fab fa-github"></i>&copy; Tomaz Dobnik</a>
     </div>
 
 

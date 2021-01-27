@@ -281,7 +281,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ### Audio 
 
-The audio file was taken from (https://soundcloud.com/ashamaluevmusic/sets/music-for-gaming-videos)
+[The audio file was taken from](https://soundcloud.com/ashamaluevmusic/sets/music-for-gaming-videos)
 
 
 ### Code
@@ -289,17 +289,17 @@ The audio file was taken from (https://soundcloud.com/ashamaluevmusic/sets/music
 *  Code for the tetris game was taken from
 [https://www.w3schools.com/]
 
-* Code for filtering true the code for specific values source from this
-  (https://stackoverflow.com/)post.
+* Code for filtering true the code for specific values source from this post.
+  [Stackoverflow](https://stackoverflow.com/)
 
-* Code for making mutte button comes from this 
-(https://stackoverflow.com/) post.
+* Code for making mutte button comes from this post.
+  [Stackoverflow](https://stackoverflow.com/) 
 
 * Code for adding the correct prefixes for css was used from 
-(https://autoprefixer.github.io/).
+  [Autoprefixer](https://autoprefixer.github.io/).
 
 *  Matrix Code for making the tetris work properly was taken from 
-(https://stackoverflow.com/), (https://www.youtube.com/watch?v=rAUn1Lom6dw&t=2101s)
+   [Youtube](https://www.youtube.com/watch?v=rAUn1Lom6dw&t=2101s)
 
 
 ## Acknowledgements
@@ -310,3 +310,5 @@ The audio file was taken from (https://soundcloud.com/ashamaluevmusic/sets/music
 
 * To all the stuff and other mentors at Code Institute for tutor asistance.
 
+
+     

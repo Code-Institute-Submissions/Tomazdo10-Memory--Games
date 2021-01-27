@@ -1,63 +1,7 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-.body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    color: #a18320;
-    line-height: 1.6;
-}
-
-body{
-    background-image: url(https://cdn.images.express.co.uk/img/dynamic/151/590x/Space-news-astronomers-Milky-Way-galaxy-violently-consumed-another-galaxy-1157335.jpg?r=1564037942362)
-    
-}
-
-#showcase {
-    background-image: url(https://images.askmen.com/1080x540/2020/05/12-104707-mind_games_in_relationships_what_they_look_like_how_to_avoid_them.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 20px;
-}
-
-#showcase h1 {
-    font-size: 60px;
-    line-height: 1.2;
-    color: #28a4b1;
-}
-
-.p {
-    font-size: 30px;
-    color: goldenrod;
-}
-
-.box-1 {
-    padding: 0px;
-    background: #28a4b1;
-    color: #fff;
-    text-align: center;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    letter-spacing: 10px;
-    line-height: 1.6;
-}
-
-.id-b {
-    display: flex;
-}
-
-
-/* buttons*/
-#score{
+ body{
+     width: 100%;
+ }
+ #score{
     font-size: 35px;
     background-color: cadetblue;
     padding-left: 250px;
@@ -72,7 +16,18 @@ body{
     margin: 0;
 }
 
-#mute {
+#startBtn{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    background-color:slategray;
+}
+
+
+ #mute {
     font-size: clamp(15px, 4vw, 15px);
     padding: 5px 0 0 5px;
     position: absolute;
@@ -93,9 +48,10 @@ body{
     margin: 0;
 }
 
-canvas {
-    height: 90vh;
-    background-image: url(https://imgs.classicfm.com/images/61630?width=1000&crop=16_9&signature=UOxsAc4VhzNYQEIG-RTXur_mix8=);
+ 
+ canvas {
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1537420327992-d6e192287183?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -117,70 +73,4 @@ div.controls p{
 div.footer p a{
     float: right;
     color: #fff;
-}
-
-@media screen and (max-width: 500px) {
-    body{
-        background-image:  url(https://cdn.images.express.co.uk/img/dynamic/151/590x/Space-news-astronomers-Milky-Way-galaxy-violently-consumed-another-galaxy-1157335.jpg?r=1564037942362)
-    }
-
-#score{
-    font-size: 35px;
-    background-color: cadetblue;
-    padding-left: 250px;
-    padding-top: 1.5rem;
-
-}
-
-.mute-btn{
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-}
-
-#mute {
-    font-size: clamp(15px, 4vw, 15px);
-    padding: 5px 0 0 5px;
-    position: absolute;
-    margin: auto;
-}
-
-#mute:active {
-    top: 1px;
-}
-
-.mute-btn i {
-    color: goldenrod;
-}
-
-.mute-btn li {
-    top: 0;
-    position: relative;
-    margin: 0;
-}
-
-canvas {
-    height: 90vh;
-    background-image: url(https://imgs.classicfm.com/images/61630?width=1000&crop=16_9&signature=UOxsAc4VhzNYQEIG-RTXur_mix8=);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    color: rgb(106, 151, 138);
-    font-size: 2em;
-   
-}
-
-div.controls p{
-    font-size: 15px;
-    color: #fff;
-    float: right;
-    margin: 40px 10px 0px 10px;
-}
-
-
-div.footer p a{
-    float: right;
-    color: #fff;
-}
 }

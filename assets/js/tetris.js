@@ -1,8 +1,10 @@
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 
-const mute = document.getElementById('mute').addEventListener("click", toggleMute);
-const sound = document.getElementById('sound');
+var mute = document.getElementById('mute').addEventListener("click", toggleMute);
+var sound = document.getElementById('sound')
+var startBtn = document.getElementById('startBtn');
+
 
 let nextRandom = 0
 let moveDown = 1000
@@ -10,6 +12,10 @@ let timerId
 
 
 context.scale(20, 20);
+
+function initialize() {
+    startBtn.style.display = 'none';
+}
 
 function arenaSweep() {
     let rowCount = 1;
@@ -129,15 +135,6 @@ function drawMatrix(matrix, offset) {
 }
 
 
-var soundFlag = true;
-if (soundFlag) {
-    sound.currentTime = 0;
-    sound.pause();
-    sound.play();
-    soundFlag = false;
-}
-
-
 function merge(arena, player) {
     player.matrix.forEach((row, y) => {
         row.forEach((value, x) => {
@@ -171,6 +168,13 @@ function playerReset() {
         arena.forEach(row => row.fill(0));
         player.score = 0;
         updateScore();
+
+        if (soundFlag) {
+            sound.play();
+            sound.currentTime = 0;
+            sound.pause();
+            soundFlag = false;
+        }
     }
 
 }
@@ -179,15 +183,6 @@ function toggleMute() {
     sound.muted = !sound.muted;
     document.getElementById("i-mute").classList.toggle("hidden");
     document.getElementById("i-not-muted").classList.toggle("hidden");
-}
-
-
-var gameOver = false;
-if (gameOver) {
-    fill(white);
-    textSize(64);
-    textAlign(CENTER);
-    text("Game\nOver!", 300, 270);
 }
 
 
