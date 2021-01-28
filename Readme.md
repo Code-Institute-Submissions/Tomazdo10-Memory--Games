@@ -221,9 +221,20 @@ This Wireframe where created using the Balsamiq for the design and planning proc
 
 ### Validation service
 
-* [W3C Markup Validation](https://validator.w3.org/) was used to validate HTML
-* [W3C Markup Validation](https://jigsaw.w3.org/css-validator/) was used to validate CSS
-* [JSHint](https://jshint.com/) was used to validate Javascript
+* [W3C Markup Validation](https://validator.w3.org/nu/#textarea)I've used this validator to check my validity of the HTML code.
+    I found 4 errors in this code. 2 where found in part of the CSS code added in the HTML (Error: CSS: content: #ddd is not a content value, 
+    Error: CSS: box-shadow: only 0 can be a unit), and the other 2 errors where In HTML code (Error: Bad value sound/Blippy Trance.mp3 for,
+    attribute src on element audio: Illegal character in path segment: space is not allowed, 
+    Error: Bad value true for attribute autoplay on element audio.)The errors where fixed and code was checked again and
+    there where no errors found this time.
+
+* [W3C Markup Validation](https://jigsaw.w3.org/css-validator/)I've used this validator to check the validity of the CSS code
+  and no errors where found.
+
+* [JSHint](https://jshint.com/)I've used this validator to check my validity of the Javascript code. It has found the
+   errors in (jshint esversions 6) so i added to js code and errors disappear as well it found five warnnings 
+   (156	Unexpected use of '|', 158 Unexpected use of '|',  159	Unexpected use of '|', 215	Missing semicolon,  267	Missing semicolon.),
+   and two undefiend variables (165	soundFlag,  169	soundFlag,  198	pos).
 
 
 ## Deployment
@@ -252,7 +263,7 @@ The Memory--Games project was made of several branches for development, testing 
 
 To clone this project to GitHub
 
-* Follow this link to the https://github.com/Tomazdo10/Memory--Games
+* [Follow this link to the](https://github.com/Tomazdo10/Memory--Games)
 
 1.Under the repository name click "Clone or Download"
 

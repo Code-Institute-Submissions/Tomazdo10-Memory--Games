@@ -1,19 +1,22 @@
+/*jshint esversion: 6 */ 
+/*jshint esversion: 6 */ 
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 
 var mute = document.getElementById('mute').addEventListener("click", toggleMute);
-var sound = document.getElementById('sound')
+var sound = document.getElementById('sound');
 var startBtn = document.getElementById('startBtn');
+var soundFlag = document.getElementById('soundFlag');
+var pos =  document.getElementById('pos');
 
-
-let nextRandom = 0
-let moveDown = 1000
-let timerId
+let nextRandom = 0;
+let moveDown = 1000;
+let timerId;
 
 
 context.scale(20, 20);
 
-function initialize() {
+function myFunction() {
     startBtn.style.display = 'none';
 }
 
@@ -169,12 +172,14 @@ function playerReset() {
         player.score = 0;
         updateScore();
 
-        if (soundFlag) {
+      
+       
+      if (soundFlag) {
             sound.play();
             sound.currentTime = 0;
             sound.pause();
             soundFlag = false;
-        }
+    }
     }
 
 }
@@ -219,7 +224,7 @@ function rotate(matrix, dir) {
             ] = [
                     matrix[y][x],
                     matrix[x][y],
-                ]
+                ];
         }
     }
     if (dir > 0) {
@@ -271,7 +276,7 @@ const player = {
     pos: { x: 0, y: 0 },
     matrix: null,
     score: 0,
-}
+};
 
 document.addEventListener('keydown', event => {
     if (event.keyCode === 37) {
