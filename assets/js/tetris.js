@@ -1,24 +1,17 @@
-/*jshint esversion: 6 */ 
-/*jshint esversion: 6 */ 
+/*jshint esversion: 6 */
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 
+var startBtn = document.getElementById("startBtn");
 var mute = document.getElementById('mute').addEventListener("click", toggleMute);
 var sound = document.getElementById('sound');
-var startBtn = document.getElementById('startBtn');
-var soundFlag = document.getElementById('soundFlag');
-var pos =  document.getElementById('pos');
 
-let nextRandom = 0;
-let moveDown = 1000;
-let timerId;
+var soundFlag = document.getElementById('soundFlag');
+var pos = document.getElementById('pos');
+
 
 
 context.scale(20, 20);
-
-function myFunction() {
-    startBtn.style.display = 'none';
-}
 
 function arenaSweep() {
     let rowCount = 1;
@@ -39,13 +32,10 @@ function arenaSweep() {
 
 }
 
+function initialize(){
+    startBtn.style.display= 'none';
 
-
-const matrix = [
-    [0, 0, 0],
-    [1, 1, 1],
-    [0, 1, 0],
-];
+}
 
 function collide(arena, player) {
     const [m, o] = [player.matrix, player.pos];
@@ -60,6 +50,7 @@ function collide(arena, player) {
     }
     return false;
 }
+
 
 function createMatrix(w, h) {
     const matrix = [];
@@ -281,6 +272,8 @@ const player = {
 document.addEventListener('keydown', event => {
     if (event.keyCode === 37) {
         playerMove(-1);
+          } else if (event.keyCode === 38) {
+        playerMove(1);
     } else if (event.keyCode === 39) {
         playerMove(1);
     } else if (event.keyCode === 40) {

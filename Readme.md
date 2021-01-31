@@ -7,8 +7,9 @@
 
 ![tetris](https://user-images.githubusercontent.com/66019489/93013063-f6a60480-f59c-11ea-9c0f-1ae71927e64c.png)
 
-----------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
+------------------------------------------------------------------------------------------------------------------------
 ## TETRIS GAME
 * The purpose of this website is to introduce the game Tetris. The Tetris game is to play with tetriminos, the game is known worldwide and it,s playable form age 5 and onwards.
 
@@ -19,6 +20,7 @@ Instructions how to play the game.
 ## Table of Contents
    ### 1. UX
    ----------------------
+   * User Stories
    * Project Goals
    * Player Goals
    * Developer and Business goals
@@ -58,10 +60,28 @@ Tetris is a greta game for children to learn about geometry and shapes as well a
 * Controls are grouped together clearly
 * The overall feel of Tetris! is fun and child-friendly.
 
+### User Stories:
+   NEW EXTERNAL USER GOALS
+* As a new user i want to be able to play the game.
+* As a new user i want to play the game withouth any failures or any other disruption.
+-----------------------------------------------------------------------------------
+### Frequent User Goals:
+* As a frequent user i want to be able to mute the sound if i want to be without it and play the game in quiet.
+* As a frequent user i will like to put the game on pause or play on if i whish to do so.
+--------------------------------------------------------------------------------------------------------------
+### Returning External User Goals:
+* As a returning user in future i will want to save my highest score played and share it with others.
+* As a returning user i would like to compete wit other players who will do the highest score.
+---------------------------------------------------------------------------------------------------------------
+### Site Owner Goals:
+As a site owner i want to push myself in the future to build more suficient website with more functions
+better and quicker responsive site so it will be more beneficial for other users.
+
+
 ### Parental Goals
 Parents of a pre-school children have a big impact on them what kind of a games are they exposed to, parents must also be in the forefront of any project design for children in this age group
 
-Parents goal:
+parental goal:
 
 * A game with child development value, to improve their knowledge and recognize the patterns.
 
@@ -236,6 +256,14 @@ This Wireframe where created using the Balsamiq for the design and planning proc
    (156	Unexpected use of '|', 158 Unexpected use of '|',  159	Unexpected use of '|', 215	Missing semicolon,  267	Missing semicolon.),
    and two undefiend variables (165	soundFlag,  169	soundFlag,  198	pos).
 
+### Testing the screens 
+
+The screen test was made in the [responsive design site](http://ami.responsivedesign.is/#). The tests where positivly
+responsive, it worked properly on each screen. It was tested also with other testers which they give back the positive fedback
+
+Here are some Screenshot from automated testing the website:
+
+
 
 ## Deployment
 
@@ -245,7 +273,7 @@ To deploy Tetris to GitHub Pages from it's GitHub repository, the following step
 
 1.Log into GitHub
 
-2.From the list of the repositories on the screen select Memoyr--games
+2.From the list of the repositories on the screen select Memory--games
 
 3.From the menu items of the top of the page select, settings
 
@@ -267,15 +295,15 @@ To clone this project to GitHub
 
 1.Under the repository name click "Clone or Download"
 
-2.In the clone HTTPs section copy the clone URL for the repository
+2. In the clone HTTPs section copy the clone URL for the repository
 
-3.In you local IDE open Git branches
+3. In you local IDE open Git branches
 
-4.Change the current working directory to the location where your clone directory want to be made
+4. Change the current working directory to the location where your clone directory want to be made
 
-5.Type git clone and then paste the URL you copied in step 3.
+5. Type git clone and then paste the URL you copied in step 3.
 
-6.Press ENTER your clone will be created.
+6. Press ENTER your clone will be created.
 
 Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
