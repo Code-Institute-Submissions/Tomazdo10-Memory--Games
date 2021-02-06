@@ -1,10 +1,18 @@
 body{
-     width: 100%
+     width: 100%;
+     height:auto;
 
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+  font-display: swap;
 }
  #score{
     font-size: 35px;
-    background-color: cadetblue;
+    background-color: rgb(95, 96, 160);
     padding-left: 250px;
     padding-top: 1.5rem;
 
@@ -18,14 +26,15 @@ body{
 }
 
 #startBtn{
-    position: relative;
-    top: 0px;
-    left: 0px;
+    position: absolute;
+    top: 1040px;
+    left: 23%;
     width: 200px;
     height: 30px;
     font-size: 20px;
-    background-color:slategray;
+    background-color:rgb(86 87 184);
 }
+
 
 
  #mute {
@@ -84,6 +93,12 @@ div.footer a{
     max-width:100%;
     display:block;
   }
+
+  #startBtn{
+  position:absolute;
+  top:auto;
+}
+
 
   #score{
       padding-left:10px;

@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
+
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
-
 var startBtn = document.getElementById("startBtn");
 var mute = document.getElementById('mute').addEventListener("click", toggleMute);
 var sound = document.getElementById('sound');
@@ -32,10 +32,6 @@ function arenaSweep() {
 
 }
 
-function initialize(){
-    startBtn.style.display= 'none';
-
-}
 
 function collide(arena, player) {
     const [m, o] = [player.matrix, player.pos];
@@ -110,6 +106,7 @@ function createPiece(type) {
 function draw() {
     context.fillStyle = '#000';
     context.fillRect(0, 0, canvas.clientWidth, canvas.height);
+
     drawMatrix(arena, { x: 0, y: 0 });
     drawMatrix(player.matrix, player.pos);
 
@@ -176,9 +173,9 @@ function playerReset() {
 }
 
 function toggleMute() {
-    sound.muted = !sound.muted;
-    document.getElementById("i-mute").classList.toggle("hidden");
-    document.getElementById("i-not-muted").classList.toggle("hidden");
+sound.muted = !sound.muted;
+document.getElementById("i-mute").classList.toggle("hidden");
+document.getElementById("i-not-muted").classList.toggle("hidden");
 }
 
 
@@ -289,6 +286,8 @@ document.addEventListener('keydown', event => {
     }
 });
 
+
 playerReset();
 updateScore();
 update();
+
