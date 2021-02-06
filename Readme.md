@@ -128,11 +128,11 @@ As a parent player, i would search for:
 
 ![Screenshot (70)](https://user-images.githubusercontent.com/66019489/96430835-938e3a00-11fa-11eb-93a4-975416aff53e.png)
 
-![Screenshot (210)](https://user-images.githubusercontent.com/66019489/107131338-48915300-68cd-11eb-873f-3f206fa76e7b.png)
+![Screenshot (213)](https://user-images.githubusercontent.com/66019489/107131515-1f71c200-68cf-11eb-98c5-f6d7afeeb881.png)
 
-![Screenshot (211)](https://user-images.githubusercontent.com/66019489/107131341-4af3ad00-68cd-11eb-9886-79d9ceef2e69.png)
+![Screenshot (214)](https://user-images.githubusercontent.com/66019489/107131517-21d41c00-68cf-11eb-8612-be7ee7cf9f10.png)
 
-![Screenshot (212)](https://user-images.githubusercontent.com/66019489/107131343-4dee9d80-68cd-11eb-8b0d-7983159cb208.png)
+![Screenshot (215)](https://user-images.githubusercontent.com/66019489/107131518-239ddf80-68cf-11eb-8c71-2dc62b5287e0.png)
 
 
 #### Icons
