@@ -2,12 +2,18 @@
 
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
-var startBtn = document.getElementById("startBtn");
-var mute = document.getElementById('mute').addEventListener("click", toggleMute);
-var sound = document.getElementById('sound');
 
-var soundFlag = document.getElementById('soundFlag');
-var pos = document.getElementById('pos');
+const startBtn = document.querySelector('#start-button');
+const mute = document.getElementById('mute').addEventListener("click", toggleMute);
+const sound = document.getElementById('sound');
+
+const soundFlag = document.getElementById('soundFlag');
+const pos = document.getElementById('pos');
+
+let timerId;
+let nextRandom = 0;
+let type;
+
 
 
 
@@ -151,14 +157,15 @@ function playerDrop() {
 
 function playerReset() {
     const pieces = 'ILJOTSZ';
-    player.matrix = createPiece(pieces[pieces.length * Math.random() | 0]);
+    player.matrix = createPiece(pieces[pieces.length * Math.random() || 0]);
     player.pos.y = 0;
-    player.pos.x = (arena[0].length / 2 | 0) -
-        (player.matrix[0].length / 2 | 0);
+    player.pos.x = (arena[0].length / 2 || 0) -
+        (player.matrix[0].length / 2 || 0);
     if (collide(arena, player)) {
         arena.forEach(row => row.fill(0));
         player.score = 0;
         updateScore();
+       
 
       
        
@@ -246,6 +253,18 @@ function updateScore() {
     document.getElementById('score').innerText = player.score;
 }
 
+ startBtn.addEventListener('click', () => {
+    if (timerId) {
+      clearInterval(timerId);
+      timerId = null;
+    } else {
+      draw();
+      timerId = setInterval(playerMove, 1000);
+      nextRandom = Math.floor(Math.random()*type.length);
+      drawMatrix();
+    }
+  });
+
 const colors = [
     null,
     '#FF0D72',
@@ -285,7 +304,6 @@ document.addEventListener('keydown', event => {
         }
     }
 });
-
 
 playerReset();
 updateScore();

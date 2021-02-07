@@ -297,7 +297,7 @@ The Memory--Games project was made of several branches for development, testing 
 
 To clone this project to GitHub
 
-* [Follow this link to the](https://github.com/Tomazdo10/Memory--Games)
+* [Follow this link](https://github.com/Tomazdo10/Memory--Games)
 
 1.Under the repository name click "Clone or Download"
 
@@ -332,10 +332,10 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ### Code
 
 *  Code for the tetris game was taken from
-[https://www.w3schools.com/]
+    [https://www.w3schools.com/]
 
 * Code for filtering true the code for specific values source from this post.
-  [Stackoverflow](https://stackoverflow.com/)
+   [Stackoverflow](https://stackoverflow.com/)
 
 * Code for making mutte button comes from this post.
   [Stackoverflow](https://stackoverflow.com/) 
