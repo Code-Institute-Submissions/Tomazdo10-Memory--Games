@@ -260,16 +260,16 @@ This Wireframe where created using the Balsamiq for the design and planning proc
   and no errors where found.
 
 * [JSHint](https://jshint.com/)I've used this validator to check my validity of the Javascript code. It has found the
-   errors in (jshint esversions 6) so i added to js code and errors disappear as well it found five warnnings 
-   (156	Unexpected use of '|', 158 Unexpected use of '|',  159	Unexpected use of '|', 215	Missing semicolon,  267	Missing semicolon.),
-   and two undefiend variables (165	soundFlag,  169	soundFlag,  198	pos).
+   errors in (jshint esversions 6) so i added (/*jshint esversion: 6 */) to js code and errors disappear as well it found five warnnings 
+   (156	Unexpected use of '|', 158 Unexpected use of '|',  159	Unexpected use of '|', 215 Missing semicolon,  267, Missing semicolon.),
+   and two undefiend variables (165	soundFlag,  169 soundFlag,  198 pos).
 
 ### Testing the screens 
 
 The screen test was made in the [responsive design site](http://ami.responsivedesign.is/#). The tests where positivly
 responsive, it worked properly on each screen. It was tested also with other testers which they give back the positive fedback
 
-Here are some Screenshot from automated testing the website:
+![Screenshot (221)](https://user-images.githubusercontent.com/66019489/107157474-2f93ab00-697c-11eb-97d9-39f847991599.png)
 
 
 
