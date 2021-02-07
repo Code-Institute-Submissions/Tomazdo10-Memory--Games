@@ -1,9 +1,9 @@
 /*jshint esversion: 6 */
-
+document.addEventListener('DOMContentLoaded', () => {
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 
-var startBtn = document.querySelector('startBtn');
+var button = document.getElementById("myBtn");
 var mute = document.getElementById('mute').addEventListener("click", toggleMute);
 var sound = document.getElementById('sound');
 
@@ -56,7 +56,7 @@ function createMatrix(w, h) {
     return matrix;
 }
 
-function initialize() {
+function click() {
     startBtn.style.display = 'none';
 }
 
@@ -295,3 +295,5 @@ document.addEventListener('keydown', event => {
 playerReset();
 updateScore();
 update();
+
+});
