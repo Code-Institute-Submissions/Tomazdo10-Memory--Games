@@ -128,11 +128,12 @@ As a parent player, i would search for:
 
 ![Screenshot (70)](https://user-images.githubusercontent.com/66019489/96430835-938e3a00-11fa-11eb-93a4-975416aff53e.png)
 
-![Screenshot (216)](https://user-images.githubusercontent.com/66019489/107141645-21b13c00-6922-11eb-9786-a4c8bb231fa7.png)
+![Screenshot (221)](https://user-images.githubusercontent.com/66019489/107144782-5d093600-6935-11eb-8cfb-3f16795fd8f4.png)
 
-![Screenshot (217)](https://user-images.githubusercontent.com/66019489/107141647-237aff80-6922-11eb-821b-e22464062c0f.png)
+![Screenshot (222)](https://user-images.githubusercontent.com/66019489/107144785-5f6b9000-6935-11eb-878c-1187fddb56c5.png)
 
-![Screenshot (218)](https://user-images.githubusercontent.com/66019489/107141648-2544c300-6922-11eb-939e-60f42d72cf60.png)
+![Screenshot (223)](https://user-images.githubusercontent.com/66019489/107144788-62668080-6935-11eb-8915-33ecf84da6d9.png)
+
 
 
 
@@ -257,16 +258,16 @@ This Wireframe where created using the Balsamiq for the design and planning proc
   and no errors where found.
 
 * [JSHint](https://jshint.com/)I've used this validator to check my validity of the Javascript code. It has found the
-   errors in (jshint esversions 6) so i added to js code and errors disappear as well it found five warnnings 
-   (156	Unexpected use of '|', 158 Unexpected use of '|',  159	Unexpected use of '|', 215	Missing semicolon,  267	Missing semicolon.),
-   and two undefiend variables (165	soundFlag,  169	soundFlag,  198	pos).
+   errors in (jshint esversions 6) so i added (/*jshint esversion: 6 */) to js code and errors disappear as well it found five warnnings 
+   (156	Unexpected use of '|', 158 Unexpected use of '|',  159	Unexpected use of '|', 215 Missing semicolon,  267, Missing semicolon.),
+   and two undefiend variables (165	soundFlag,  169 soundFlag,  198 pos).
 
 ### Testing the screens 
 
 The screen test was made in the [responsive design site](http://ami.responsivedesign.is/#). The tests where positivly
 responsive, it worked properly on each screen. It was tested also with other testers which they give back the positive fedback
 
-Here are some Screenshot from automated testing the website:
+![Screenshot (221)](https://user-images.githubusercontent.com/66019489/107157474-2f93ab00-697c-11eb-97d9-39f847991599.png)
 
 
 
