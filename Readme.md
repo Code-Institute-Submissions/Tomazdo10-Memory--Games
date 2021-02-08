@@ -191,7 +191,7 @@ This Wireframe where created using the Balsamiq for the design and planning proc
 
 * The modal was programed not to close or end the game, the game goes on.
 
-<<<<<<< HEAD
+
 #### Dashboard
 
 * The game dashboard contains the player info dispaly, the arrows and letters how to play the game.
@@ -320,9 +320,9 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ### Media
 
-* The imges for the backgrounds where taken from [Google images](https://www.google.com/search?q=space+milky+way&tbm=isch&ved=2ahUKEwiU_8eXtLfsAhVN5IUKHQGgDGgQ2-cCegQIABAA&oq=space+mil&gs_lcp=CgNpbWcQARgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoHCAAQsQMQQzoECAAQQzoFCAAQsQNQzpXNCVjOms0JYIGmzQloAHAAeACAAesBiAHpBZIBBTAuMi4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=E62IX9SpK83IlwSBwLLABg&bih=536&biw=1280#imgrc=pK1RNVxiAWapnM). Copyright for the background images belongs to Daily Express.
+* The imges for the backgrounds where taken from [Unsplash.com](https://unsplash.com/). Copyright for the background images belongs to Daily Express.
 
-* The main bacground image was also taken from [Google images](https://www.google.com/search?q=mind+games&tbm=isch&ved=2ahUKEwiA4sbkrb7sAhUG3BoKHR4EAFkQ2-cCegQIABAA&oq=mind&gs_lcp=CgNpbWcQARgAMgQIIxAnMgcIABCxAxBDMgQIABBDMgcIABCxAxBDMgQIABBDMgcIABCxAxBDMgcIABCxAxBDMgQIABBDMgcIABCxAxBDMgQIABBDOgIIADoHCCMQ6gIQJ1Cy2LUfWJbstR9glf61H2gBcAB4AoABkQGIAZoIkgEDOC4zmAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=5FGMX4DgEYa4a56IgMgF&bih=536&biw=1280#imgrc=j7tlOi9L_ZE5WM). Copyright for the background images belongs to AskMen.
+* The main bacground image was taken from [Google images](https://www.google.com/search?q=mind+games&tbm=isch&ved=2ahUKEwiA4sbkrb7sAhUG3BoKHR4EAFkQ2-cCegQIABAA&oq=mind&gs_lcp=CgNpbWcQARgAMgQIIxAnMgcIABCxAxBDMgQIABBDMgcIABCxAxBDMgQIABBDMgcIABCxAxBDMgcIABCxAxBDMgQIABBDMgcIABCxAxBDMgQIABBDOgIIADoHCCMQ6gIQJ1Cy2LUfWJbstR9glf61H2gBcAB4AoABkQGIAZoIkgEDOC4zmAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=5FGMX4DgEYa4a56IgMgF&bih=536&biw=1280#imgrc=j7tlOi9L_ZE5WM). Copyright for the background images belongs to AskMen.
 
 ### Audio 
 
