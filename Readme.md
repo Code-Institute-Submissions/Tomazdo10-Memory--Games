@@ -143,11 +143,13 @@ As a parent player, i would search for:
 
 #### Colours
 
-* The primary choice of text background is colour goldenrod because they have a clear aspect while contrasting each other well with the main image on the top.
-
-* The background for the game itself was chosen the image of milky way (universe) because it is nicely laying on the back of the game an makes you more relaxed during the play. 
-
-* Other colours in project where used from the trophy image source, using a color picker in photoshop to make sure all colours were consistent across the project.
+* The primary choice of the background color I've chosed White-smoke(#EFEFEF), Oyster-Bay(#D9E7E9), Cyain-bluish(#C3CCD9) they goes nicely
+  toggether and make the back ground a little darker and smokey.
+  
+* For the text i used the color White(#FFFFFF) and Dark(#000000) because they are the most common and they fit the most on almost any background
+  color. 
+  
+* For the text background color i used the Horizon(#6A978A), because it fit nicely to the background image.  
   
 
 #### Styling
