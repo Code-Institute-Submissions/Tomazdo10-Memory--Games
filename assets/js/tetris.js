@@ -4,7 +4,7 @@ const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 
 var startBtn = document.getElementById("startBtn");
-var sound = document.getElementById('sound');
+var toggleMute = document.getElementById('mute').addEventListener("click", toggleMute);
 
 var soundFlag = document.getElementById('soundFlag');
 var pos = document.getElementById('pos');
