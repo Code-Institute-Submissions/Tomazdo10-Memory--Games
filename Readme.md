@@ -122,11 +122,11 @@ As a parent player, i would search for:
 ### Design Choices
  The design of the game was more for children to enyoj. Design of the choices wher made with this in mind:
 
-![Screenshot (68)](https://user-images.githubusercontent.com/66019489/96430815-8cffc280-11fa-11eb-861f-a4080a0110b7.png)
+![Screenshot (234)](https://user-images.githubusercontent.com/66019489/108118064-b7249c80-7095-11eb-8146-a17ff0b8845e.png)
 
-![Screenshot (69)](https://user-images.githubusercontent.com/66019489/96430823-90934980-11fa-11eb-902f-9db612fd8986.png)
+![Screenshot (235)](https://user-images.githubusercontent.com/66019489/108118074-b986f680-7095-11eb-910f-54adc568f32d.png)
 
-![Screenshot (70)](https://user-images.githubusercontent.com/66019489/96430835-938e3a00-11fa-11eb-93a4-975416aff53e.png)
+![Screenshot (236)](https://user-images.githubusercontent.com/66019489/108118081-bd1a7d80-7095-11eb-8e48-441652f9b2a4.png)
 
 ![Screenshot (221)](https://user-images.githubusercontent.com/66019489/107144782-5d093600-6935-11eb-8cfb-3f16795fd8f4.png)
 
@@ -143,11 +143,13 @@ As a parent player, i would search for:
 
 #### Colours
 
-* The primary choice of text background is colour goldenrod because they have a clear aspect while contrasting each other well with the main image on the top.
-
-* The background for the game itself was chosen the image of milky way (universe) because it is nicely laying on the back of the game an makes you more relaxed during the play. 
-
-* Other colours in project where used from the trophy image source, using a color picker in photoshop to make sure all colours were consistent across the project.
+* The primary choice of the background color I've chosed White-smoke(#EFEFEF), Oyster-Bay(#D9E7E9), Cyain-bluish(#C3CCD9) they goes nicely
+  toggether and make the back ground a little darker and smokey.
+  
+* For the text i used the color White(#FFFFFF) and Dark(#000000) because they are the most common and they fit the most on almost any background
+  color. 
+  
+* For the text background color i used the Horizon(#6A978A), because it fit nicely to the background image.  
   
 
 #### Styling
