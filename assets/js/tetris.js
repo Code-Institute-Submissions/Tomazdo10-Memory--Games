@@ -3,14 +3,15 @@ document.addEventListener('DOMContentLoaded', () => {
 const canvas = document.getElementById('tetris');
 const context = canvas.getContext('2d');
 
-var button = document.getElementById("myBtn");
-var mute = document.getElementById('mute').addEventListener("click", toggleMute);
+var startBtn = document.getElementById("startBtn");
 var sound = document.getElementById('sound');
 
 var soundFlag = document.getElementById('soundFlag');
 var pos = document.getElementById('pos');
 
-
+let timerId;
+let nextRandom = 0;
+  
 context.scale(20, 20);
 
 function arenaSweep() {
@@ -54,10 +55,6 @@ function createMatrix(w, h) {
         matrix.push(new Array(w).fill(0));
     }
     return matrix;
-}
-
-function click() {
-    startBtn.style.display = 'none';
 }
 
 function createPiece(type) {
@@ -291,6 +288,26 @@ document.addEventListener('keydown', event => {
         }
     }
 });
+
+ startBtn.addEventListener('click', () => {
+    if (timerId) {
+      clearInterval(timerId);
+      timerId = null;
+    } else {
+      draw();
+      timerId = setInterval(dropCounter, 1000);
+      nextRandom = Math.floor(Math.random()*drawMatrix.length);
+      playerReset();
+    }
+  });
+
+ function gameOver() {
+    if(current.some(index => squares[currentPosition + index].classList.contains('taken'))) {
+      scoreDisplay.innerHTML = 'end'
+      clearInterval(timerId)
+    }
+  }
+
 
 playerReset();
 updateScore();
